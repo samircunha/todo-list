@@ -1,0 +1,46 @@
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        font-size: 2rem;
+        padding: 1.2rem;
+    }
+}
+
+.inputContent {
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 0.1rem solid var(--gray-150);
+    border-radius: 0.5rem;
+
+    input {
+        width: 100%;
+        margin-bottom: 1rem;
+        border: 0.1rem solid var(--gray-200);
+        border-radius: 0.5rem;
+        padding: 0.6rem;
+        font-size: 1.1rem;
+    }
+
+    button {
+        width: 100%;
+        border-radius: 0.5rem;
+        font-size: 1.1rem;
+        padding: 0.6rem;
+        border-color: var(--gray-200);
+        border-style: none;
+        background-color: var(--blue-water);
+        color: var(--gray-100);
+
+        transition: 0.2s;
+
+        &:hover {
+            background-color: var(--gray-100);
+            color: var(--blue-water);
+        }
+    }
+}

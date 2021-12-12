@@ -1,0 +1,23 @@
+.filterButtonsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+
+    button {
+        width: 250px;
+        padding: 0.6rem;
+        border-radius: 0.5rem;
+        font-size: 1.1rem;
+        border-color: var(--gray-200);
+        background-color: var(--blue-water);
+        color: var(--gray-100);
+        border-style: none;
+
+        transition: 0.2s;
+
+        &:hover {
+            background-color: var(--gray-100);
+            color: var(--blue-water);
+        }
+    }
+}

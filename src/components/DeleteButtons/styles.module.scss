@@ -1,0 +1,19 @@
+.deleteButtonsContainer {
+    display: flex;
+    justify-content: space-between;
+
+    button {
+        background-color: var(--red);
+        color: var(--gray-100);
+        border-style: none;
+        width: 400px;
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+        font-size: 1.1rem;
+
+        &:hover {
+            background-color: #f56b6b;
+            color:#eeebeb;
+        }
+    }
+}

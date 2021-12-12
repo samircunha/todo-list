@@ -1,0 +1,16 @@
+.todoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        font-size: 1.5rem;
+        padding: 1.5rem;
+    }
+}
+
+.todoCotent{
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+}
