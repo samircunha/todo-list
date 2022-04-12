@@ -46,7 +46,9 @@ To save tasks I use local storage, so if you reload the site or leave and come b
 ## Layout <a name="-layout" style="text-decoration:none"></a>
 
 <h1 align="center">
-  <img src="https://github.com/samircunha/todo-list/blob/main/front.JPG"  
+  <a src="https://todolistbysamir.netlify.app/">
+  <img src="https://github.com/samircunha/todo-list/blob/main/front.JPG" >
+  </a>
 </h1>
   
 ---
